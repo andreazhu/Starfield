@@ -1,26 +1,43 @@
 //your code here
 void setup()
 {
-	//your code here
+  size(300,300);
 }
 void draw()
 {
-	//your code here
+  //your code here
 }
 class NormalParticle
 {
-	//your code here
+  double myX, myY, mySpeed, myAngle;
+  NormalParticle()
+  {
+    myX = 150;
+    myY = 150;
+    mySpeed = Math.random() * 10;
+    myAngle = Math.PI;
+  }
+  
+  void move() 
+  {
+    myX += Math.cos(myAngle) * mySpeed;
+    myY += Math.sin(myAngle) * mySpeed;
+  }
+  
+  void show() 
+  {
+    eclipse(
+  }
 }
 interface Particle
 {
-	//your code here
+   
 }
 class OddballParticle //uses an interface
 {
-	//your code here
+  //your code here
 }
 class JumboParticle //uses inheritance
 {
-	//your code here
+  //your code here
 }
-
