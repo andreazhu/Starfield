@@ -11,6 +11,7 @@ void setup()
 {
   background(255,255,255);
   size(500,500);
+  noStoke();
   
   particles = new Particle[500];
   particles[0] = new OddballParticle();
