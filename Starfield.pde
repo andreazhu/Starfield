@@ -41,8 +41,8 @@ class NormalParticle implements Particle
   {
     myX = width/2;
     myY = width/2;
-    mySpeed = (float)(Math.random() * 10);
-    myAngle = (float)(Math.random() *2*Math.PI);
+    mySpeed = (float)(Math.random() * 10); //[0,10)
+    myAngle = (float)(Math.random() *2*Math.PI); //[0,2*PI)
     mySize = width/100;
     myColor = color(
              (int)(Math.random()*256), //[0,255]
