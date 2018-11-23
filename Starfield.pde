@@ -62,6 +62,7 @@ class NormalParticle implements Particle
   {
     fill(myColor);
     ellipse((float)myX, (float)myY, mySize, mySize);
+    mySize += 0.01;
   }
 }
 
